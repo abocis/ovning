@@ -1,3 +1,5 @@
+package Arrays_lopar_list;
+
 public class Loopar {
     public static void main(String[] args) {
         System.out.println("hej");

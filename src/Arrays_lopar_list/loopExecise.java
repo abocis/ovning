@@ -1,3 +1,5 @@
+package Arrays_lopar_list;
+
 import java.util.Scanner;
 
 public class loopExecise {

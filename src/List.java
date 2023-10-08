@@ -5,12 +5,13 @@ import java.util.Arrays;
 // Item kommer ha inparametrarna: name, type, count
 record Item (String name, String type, int count){
 
-    public Item( String name){
+    public Item(String name){
 
         this(name, "DIARRY", 1);
 
     }
 }
+
 public class List {
     public static void main(String[] args) {
         Object[] shoppingArray = new  Object[4];
@@ -32,24 +33,6 @@ public class List {
         itemList.add(new Item("bregott ", "smör",1));
         itemList.add(new Item("volvo"));
         System.out.println(itemList);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
